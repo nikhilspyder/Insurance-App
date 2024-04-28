@@ -1,0 +1,138 @@
+.health-insurance-list {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.popup-content {
+  margin-left: 300px;
+  border-Radius: 20;
+  align-content: center;
+  width: 500px;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 25px 30px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, background 0.3s ease,border-radius 0.3s ease;
+
+}
+
+.popup-content:hover {
+  box-shadow: 10px 50px 30px 10px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+  
+  .popup {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+.table {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.row > p {
+    display: table-cell;
+    padding: 5px 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.user-image {
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%; /* Optional: Makes the image round */
+}
+
+.user-image1 {
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%; /* Optional: Makes the image round */
+}
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.quote-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 25px 30px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, background 0.3s ease,border-radius 0.3s ease;
+}
+
+.quote-item:hover{
+  box-shadow: 10px 50px 30px 10px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}

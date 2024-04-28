@@ -1,0 +1,71 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 200px;
+  height: 80px;
+}
+
+.navigation {
+  float: 'right'
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff6961; /* Light red color */
+}
+
+/* Add this to your existing CSS file */
+
+.login-button1,
+.logout-button1 {
+  padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.login-button1:hover,
+.logout-button1:hover {
+    background-color: white;
+    color: black;
+    border-color: transparent;
+}
