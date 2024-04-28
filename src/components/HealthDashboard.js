@@ -90,7 +90,7 @@ const HealthDashboard = () => {
     const fetchOpenAiResponse = async () => {
         setIsLoading(true); // Set loading state to true
         const prompt = generateQuery(selectedInsurance);
-        const apiKey = 'Bearer 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';
+        const apiKey = '';
         const apiUrl = 'https://api.openai.com/v1/completions';
         const headers = {
             'Content-Type': 'application/json',
